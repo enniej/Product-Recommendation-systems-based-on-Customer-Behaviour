@@ -50,6 +50,7 @@ The **top-selling product categories** include:
 - **Health & Beauty**
 - **Sports & Leisure**
 - **Furniture & Decor**
+  
 These categories represent the **most in-demand products**, making them ideal targets for personalized recommendations and promotional strategies.
 
 ### Customer Purchasing Behavior
@@ -62,7 +63,7 @@ The analysis indicates that **the majority of customers are one-time buyers**, w
 
 The chart reveals that **repeat buyers make up a small fraction of total purchases**, suggesting that targeted engagement strategies such as **loyalty programs, personalized discounts, and post-purchase engagement** could increase repeat purchase rates.
 
-Categories such as **Bed & Bath, Health & Beauty, and Furniture & Decor** attract more repeat buyers than other categories, suggesting that these product types may be more conducive to long-term customer relationships. This insight can inform **customer retention strategies** such as repeat purchase incentives.
+Categories such as **Bed & Bath, Computer accessory, and Furniture & Decor** attract more repeat buyers than other categories, suggesting that these product types may be more conducive to long-term customer relationships. This insight can inform **customer retention strategies** such as repeat purchase incentives.
 
 ### Average Price by Category
 ![Average Price by Category](images/output_49_0.png)
