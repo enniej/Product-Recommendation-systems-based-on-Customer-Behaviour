@@ -41,11 +41,6 @@ The boxplot analysis shows that **prices, freight values, product weights, and d
 ### Relationship Between Price and Shipping Cost
 ![Price vs Shipping Cost](images/output_35_0.png)
 
-The scatter plot reveals a **weak correlation between product price and shipping cost**, with substantial variance. This suggests that **shipping fees are influenced by factors beyond just product price**, such as product weight, dimensions, and courier policies.
-
-### Best-Selling Product Categories
-![Top 10 Best-Selling Categories](images/output_40_0.png)
-
 The **top-selling product categories** include:
 - **Bed & Bath**
 - **Health & Beauty**
@@ -54,7 +49,13 @@ The **top-selling product categories** include:
 
 These categories represent the **most in-demand products**, making them ideal targets for personalized recommendations and promotional strategies.
 
+
+### Best-Selling Product Categories
+![Top 10 Best-Selling Categories](images/output_40_0.png)
+
+The scatter plot reveals a **weak correlation between product price and shipping cost**, with substantial variance. This suggests that **shipping fees are influenced by factors beyond just product price**, such as product weight, dimensions, and courier policies.
 ### Customer Purchasing Behavior
+
 ![Customer Purchase Behavior](images/output_42_0.png)
 
 The analysis indicates that **the majority of customers are one-time buyers**, while only a **small fraction are repeat buyers**. This highlights the **importance of personalized recommendations** to enhance customer retention and encourage repeat purchases.
