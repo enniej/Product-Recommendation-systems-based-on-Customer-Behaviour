@@ -1,7 +1,8 @@
 # Product-Recommendation-systems-based-on-Customer-Behaviour
 This project builds an AI-driven recommendation system using customer browsing and purchase history to provide personalized product suggestions. It aims to enhance customer engagement and boost sales by delivering tailored recommendations based on user behaviour.
 
-![image](https://github.com/user-attachments/assets/98439710-e219-4e9e-84f0-5fcaf89af4da)
+![image](https://github.com/user-attachments/assets/1c16c051-a860-42fb-9474-aa3156fd8235)
+
 
 ## 1. Introduction
 This project develops an **AI-driven product recommendation system** using **collaborative filtering techniques** to analyze **customer browsing and purchase history**. By leveraging **user behavior and product similarity**, the system suggests relevant products, improving customer experience and increasing sales for **Trafilea**.
