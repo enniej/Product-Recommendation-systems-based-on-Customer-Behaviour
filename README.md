@@ -36,12 +36,12 @@ The dataset consists of:
 ### Price and Product Dimension Distribution
 ![Boxplot of Prices and Dimensions](images/output_34_0.png)
 
-The boxplot analysis shows that **prices, weights, and dimensions of products exhibit significant outliers**. This suggests the need for **data normalization and potential filtering** to avoid skewed recommendations and improve model performance.
+The boxplot analysis shows that **prices, freight values, product weights, and dimensions exhibit significant outliers**. This suggests the need for **data normalization and potential filtering** to avoid skewed recommendations and improve model performance.
 
 ### Relationship Between Price and Shipping Cost
 ![Price vs Shipping Cost](images/output_35_0.png)
 
-The scatter plot reveals a **positive correlation between product price and shipping cost**, but with **high variance**. This indicates that **shipping fees are not strictly proportional** to product prices, suggesting that pricing strategies vary across categories.
+The scatter plot reveals a **weak correlation between product price and shipping cost**, with substantial variance. This suggests that **shipping fees are influenced by factors beyond just product price**, such as product weight, dimensions, and courier policies.
 
 ### Best-Selling Product Categories
 ![Top 10 Best-Selling Categories](images/output_40_0.png)
@@ -62,12 +62,12 @@ The analysis indicates that **the majority of customers are one-time buyers**, w
 ### One-Time vs. Repeat Buyers
 ![One-Time vs Repeat Buyers](images/output_47_0.png)
 
-**Repeat buyers tend to purchase from specific categories more frequently than one-time buyers**. This suggests that loyalty-driven strategies, such as **targeted discounts and personalized product suggestions**, can increase customer lifetime value.
+The chart reveals that **repeat buyers make up a small fraction of total purchases**, suggesting that targeted engagement strategies such as **loyalty programs, personalized discounts, and post-purchase engagement** could increase repeat purchase rates.
 
 ### Purchase Preferences Across Categories
 ![Purchase Preferences Across Categories](images/output_49_0.png)
 
-Categories such as **Bed & Bath, Health & Beauty, and Furniture & Decor attract more repeat buyers**, indicating that these segments have high potential for **customer loyalty programs and retention strategies**.
+Categories such as **Bed & Bath, Health & Beauty, and Furniture & Decor** attract more repeat buyers than other categories, suggesting that these product types may be more conducive to long-term customer relationships. This insight can inform **customer retention strategies** such as repeat purchase incentives.
 
 ### Average Price by Category
 ![Average Price by Category](images/output_52_0.png)
@@ -77,18 +77,17 @@ The **highest-priced categories** include:
 - **Home Appliances**
 - **Musical Instruments**
 
-High-value items may require **different recommendation strategies**, such as **bundled offers, installment plans, or targeted promotions** to drive conversions.
+These product types are typically high-value and infrequent purchases, meaning recommendation strategies for these categories should emphasize **product education, financing options, and customer reviews**.
 
 ### Purchase Frequency Across Price Ranges
 ![Purchase Frequency Across Price Ranges](images/output_55_0.png)
 
-Products in the **medium price range dominate purchases**, while **low and high-priced products see lower frequency**. This suggests that high-priced items may require **discounts or promotional strategies** to boost sales.
+Most purchases fall within the **medium price range**, while high-priced products see significantly lower purchase frequency. This suggests that price-sensitive customers may need **discount incentives, installment plans, or bundled offers** to increase high-value sales.
 
-### Correlation Between Product Categories and Prices
-![Correlation Heatmap of Product Categories & Prices](images/output_58_0.png)
+### Correlation Between Price Ranges and Customer Preferences
+![Correlation Heatmap of Price Ranges and Purchase Behavior](images/output_58_0.png)
 
-The heatmap shows **strong correlations between product categories and price range**, meaning that certain categories are consistently priced within specific price tiers. This insight can be leveraged for **price-based recommendation strategies**.
-
+The heatmap shows that **customers tend to cluster within specific price ranges**, meaning that price sensitivity is a key driver of purchase behavior. This insight can be leveraged to create **price-specific marketing campaigns**.
 
 ## 5. Methodology
 ### **Recommendation Approaches**
