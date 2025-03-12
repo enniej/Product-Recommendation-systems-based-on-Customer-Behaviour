@@ -29,23 +29,51 @@ The dataset consists of:
 - Creating a **user-item interaction matrix** for recommendation modeling.
 
 ## 4. Exploratory Data Analysis (EDA)
-Key insights derived from EDA:
-- **Most frequently purchased products**.
-- **Top-selling product categories**.
-- **User purchase frequency distribution**.
-- **Co-purchased product analysis** (Which products are often bought together).
+### Price and Product Dimension Distribution
+![Boxplot of Prices and Dimensions](images/output_34_0.png)
+The analysis reveals that product **prices**, **weights**, and **dimensions** exhibit significant outliers. This indicates the need for data normalization to ensure fair model training and prevent skewed recommendations.
 
-### **Visuals:**
-- ![Boxplot of Prices and Dimensions](images/output_34_0.png)
-- ![Price vs Shipping Cost](images/output_35_0.png)
-- ![Top 10 Best-Selling Categories](images/output_40_0.png)
-- ![Customer Purchase Behavior](images/output_42_0.png)
-- ![One-Time vs Repeat Buyers](images/output_47_0.png)
-- ![Purchase Preferences Across Categories](images/output_49_0.png)
-- ![Average Price by Category](images/output_52_0.png)
-- ![Purchase Frequency Across Price Ranges](images/output_55_0.png)
-- ![Correlation Heatmap of Product Categories & Prices](images/output_58_0.png)
-- ![Price, Category, and Purchase Frequency Correlation](images/output_59_0.png)
+### Relationship Between Price and Shipping Cost
+![Price vs Shipping Cost](images/output_35_0.png)
+There is a positive correlation between **product price** and **shipping cost**, but high variance exists, indicating that **shipping fees do not scale proportionally** for all products.
+
+### Best-Selling Product Categories
+![Top 10 Best-Selling Categories](images/output_40_0.png)
+The most frequently purchased product categories are:
+- **bed_bath_table**
+- **health_beauty**
+- **sports_leisure**
+- **furniture_decor**
+These categories represent a high proportion of customer demand, making them prime targets for personalized recommendations.
+
+### Customer Purchasing Behavior
+![Customer Purchase Behavior](images/output_42_0.png)
+The majority of customers are **one-time buyers**, while only a small fraction makes repeat purchases. This suggests that personalized recommendations could help **increase customer retention**.
+
+### One-Time vs. Repeat Buyers
+![One-Time vs Repeat Buyers](images/output_47_0.png)
+Repeat buyers tend to purchase from specific categories more frequently than one-time buyers, indicating the **potential for loyalty-driven recommendations**.
+
+### Purchase Preferences Across Categories
+![Purchase Preferences Across Categories](images/output_49_0.png)
+Certain categories like **health_beauty** and **furniture_decor** attract repeat buyers more than others. This insight can be used to design **personalized retention strategies**.
+
+### Average Price by Category
+![Average Price by Category](images/output_52_0.png)
+The highest-priced categories include **computers** and **home_appliances**, indicating that high-value items might require **different recommendation strategies** compared to lower-cost, high-frequency purchases.
+
+### Purchase Frequency Across Price Ranges
+![Purchase Frequency Across Price Ranges](images/output_55_0.png)
+Medium-priced products dominate purchases, while high-priced products see lower volume. This suggests that customers may need **more incentives** (discounts, financing options) to purchase expensive products.
+
+### Correlation Between Product Categories and Prices
+![Correlation Heatmap of Product Categories & Prices](images/output_58_0.png)
+The heatmap reveals **strong correlations** between **product category** and **price range**, which can be leveraged for more targeted recommendations.
+
+### Relationship Between Price, Category, and Purchase Frequency
+![Price, Category, and Purchase Frequency Correlation](images/output_59_0.png)
+The correlation heatmap shows that **purchase frequency is weakly correlated with product price**, suggesting that price alone is not the primary driver of repeat purchases.
+
 
 ## 5. Methodology
 ### **Recommendation Approaches**
