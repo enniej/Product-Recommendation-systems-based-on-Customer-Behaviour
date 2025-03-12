@@ -31,10 +31,12 @@ The dataset consists of:
 ## 4. Exploratory Data Analysis (EDA)
 ### Price and Product Dimension Distribution
 ![Boxplot of Prices and Dimensions](images/output_34_0.png)
+
 The analysis reveals that product **prices**, **weights**, and **dimensions** exhibit significant outliers. This indicates the need for data normalization to ensure fair model training and prevent skewed recommendations.
 
 ### Relationship Between Price and Shipping Cost
 ![Price vs Shipping Cost](images/output_35_0.png)
+
 There is a positive correlation between **product price** and **shipping cost**, but high variance exists, indicating that **shipping fees do not scale proportionally** for all products.
 
 ### Best-Selling Product Categories
@@ -48,6 +50,7 @@ These categories represent a high proportion of customer demand, making them pri
 
 ### Customer Purchasing Behavior
 ![Customer Purchase Behavior](images/output_42_0.png)
+
 The majority of customers are **one-time buyers**, while only a small fraction makes repeat purchases. This suggests that personalized recommendations could help **increase customer retention**.
 
 ### One-Time vs. Repeat Buyers
@@ -69,10 +72,6 @@ Medium-priced products dominate purchases, while high-priced products see lower 
 ### Correlation Between Product Categories and Prices
 ![Correlation Heatmap of Product Categories & Prices](images/output_58_0.png)
 The heatmap reveals **strong correlations** between **product category** and **price range**, which can be leveraged for more targeted recommendations.
-
-### Relationship Between Price, Category, and Purchase Frequency
-![Price, Category, and Purchase Frequency Correlation](images/output_59_0.png)
-The correlation heatmap shows that **purchase frequency is weakly correlated with product price**, suggesting that price alone is not the primary driver of repeat purchases.
 
 
 ## 5. Methodology
