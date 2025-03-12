@@ -33,61 +33,50 @@ The dataset consists of:
 - Creating a **user-item interaction matrix** for recommendation modeling.
 
 ## 4. Exploratory Data Analysis (EDA)
+
 ### Price and Product Dimension Distribution
 ![Boxplot of Prices and Dimensions](images/output_34_0.png)
-
 The boxplot analysis shows that **prices, freight values, product weights, and dimensions exhibit significant outliers**. This suggests the need for **data normalization and potential filtering** to avoid skewed recommendations and improve model performance.
 
 ### Relationship Between Price and Shipping Cost
 ![Price vs Shipping Cost](images/output_35_0.png)
+The scatter plot reveals a **weak correlation between product price and shipping cost**, with substantial variance. This suggests that **shipping fees are influenced by factors beyond just product price**, such as product weight, dimensions, and courier policies.
 
+### Best-Selling Product Categories
+![Top 10 Best-Selling Categories](images/output_40_0.png)
 The **top-selling product categories** include:
 - **Bed & Bath**
 - **Health & Beauty**
 - **Sports & Leisure**
 - **Furniture & Decor**
-
 These categories represent the **most in-demand products**, making them ideal targets for personalized recommendations and promotional strategies.
 
-
-### Best-Selling Product Categories
-![Top 10 Best-Selling Categories](images/output_40_0.png)
-
-The scatter plot reveals a **weak correlation between product price and shipping cost**, with substantial variance. This suggests that **shipping fees are influenced by factors beyond just product price**, such as product weight, dimensions, and courier policies.
 ### Customer Purchasing Behavior
-
 ![Customer Purchase Behavior](images/output_42_0.png)
-
 The analysis indicates that **the majority of customers are one-time buyers**, while only a **small fraction are repeat buyers**. This highlights the **importance of personalized recommendations** to enhance customer retention and encourage repeat purchases.
 
 ### One-Time vs. Repeat Buyers
 ![One-Time vs Repeat Buyers](images/output_47_0.png)
-
 The chart reveals that **repeat buyers make up a small fraction of total purchases**, suggesting that targeted engagement strategies such as **loyalty programs, personalized discounts, and post-purchase engagement** could increase repeat purchase rates.
 
 ### Purchase Preferences Across Categories
 ![Purchase Preferences Across Categories](images/output_49_0.png)
-
 Categories such as **Bed & Bath, Health & Beauty, and Furniture & Decor** attract more repeat buyers than other categories, suggesting that these product types may be more conducive to long-term customer relationships. This insight can inform **customer retention strategies** such as repeat purchase incentives.
 
 ### Average Price by Category
 ![Average Price by Category](images/output_52_0.png)
-
 The **highest-priced categories** include:
 - **Computers**
 - **Home Appliances**
 - **Musical Instruments**
-
 These product types are typically high-value and infrequent purchases, meaning recommendation strategies for these categories should emphasize **product education, financing options, and customer reviews**.
 
 ### Purchase Frequency Across Price Ranges
 ![Purchase Frequency Across Price Ranges](images/output_55_0.png)
-
 Most purchases fall within the **medium price range**, while high-priced products see significantly lower purchase frequency. This suggests that price-sensitive customers may need **discount incentives, installment plans, or bundled offers** to increase high-value sales.
 
 ### Correlation Between Price Ranges and Customer Preferences
 ![Correlation Heatmap of Price Ranges and Purchase Behavior](images/output_58_0.png)
-
 The heatmap shows that **customers tend to cluster within specific price ranges**, meaning that price sensitivity is a key driver of purchase behavior. This insight can be leveraged to create **price-specific marketing campaigns**.
 
 ## 5. Methodology
