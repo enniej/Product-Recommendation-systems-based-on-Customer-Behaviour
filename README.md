@@ -70,6 +70,7 @@ The **highest-priced categories** include:
 - **Computers**
 - **Small Appliances & Home**
 - **Home Appliances**
+  
 These product types are typically high-value and infrequent purchases, meaning recommendation strategies for these categories should emphasize **product education, financing options, and customer reviews**.
 
 ### Purchase Frequency Across Price Ranges
