@@ -63,14 +63,17 @@ Certain categories like **health_beauty** and **furniture_decor** attract repeat
 
 ### Average Price by Category
 ![Average Price by Category](images/output_52_0.png)
+
 The highest-priced categories include **computers** and **home_appliances**, indicating that high-value items might require **different recommendation strategies** compared to lower-cost, high-frequency purchases.
 
 ### Purchase Frequency Across Price Ranges
 ![Purchase Frequency Across Price Ranges](images/output_55_0.png)
+
 Medium-priced products dominate purchases, while high-priced products see lower volume. This suggests that customers may need **more incentives** (discounts, financing options) to purchase expensive products.
 
 ### Correlation Between Product Categories and Prices
 ![Correlation Heatmap of Product Categories & Prices](images/output_58_0.png)
+
 The heatmap reveals **strong correlations** between **product category** and **price range**, which can be leveraged for more targeted recommendations.
 
 
